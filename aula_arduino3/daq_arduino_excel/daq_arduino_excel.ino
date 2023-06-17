@@ -35,7 +35,7 @@ void setup() {
   delay(5000);
 
   do {
-    Serial.println('OK');
+    Serial.println("OK");
     delay(100);
     entrada=Serial.readStringUntil('\n');
     delay(100);
@@ -115,6 +115,4 @@ void loop() {
     delay(5000);
     conta=0;
   }
-  //Escreve 'FIM' na porta serial
-  //Serial.println("FIM");
 }
